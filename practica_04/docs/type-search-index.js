@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.eda2.practica04","l":"Main"},{"p":"org.eda2.practica04","l":"PathNode"},{"p":"org.eda2.practica04","l":"TSP"}];updateSearchResults();

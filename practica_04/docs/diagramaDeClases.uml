@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_f6Z_AOUTEeyHBbWZpavrFQ" name="diagramaDeClases">
+    <eAnnotations xmi:id="_gVTLQOUTEeyHBbWZpavrFQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_gVWOkOUTEeyHBbWZpavrFQ" source="codegen">
+        <details xmi:id="_gVXcsOUTEeyHBbWZpavrFQ" key="codegenDirectory" value="/practica_04/source"/>
+        <details xmi:id="_iT7bIOUTEeyHBbWZpavrFQ" key="AssociatedSourceCode" value="/practica_04/source/org/eda2/practica04/Main.java;2409388211/1;/practica_04/source/org/eda2/practica04/PathNode.java;3527113693/1;/practica_04/source/org/eda2/practica04/TSP.java;3783953536/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_hL-7oOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_hMFCQOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hMFpUOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hMG3cOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hMHegOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hMIFkOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hMJ6wOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hMKh0OUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hMOzQOUTEeyHBbWZpavrFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hIDd4OUTEeyHBbWZpavrFQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hIQSMOUTEeyHBbWZpavrFQ" name="eda2">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hIwBcOUTEeyHBbWZpavrFQ" name="practica04">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hLcJEOUTEeyHBbWZpavrFQ" name="Main">
+            <ownedAttribute xmi:id="_hiPfgOUTEeyHBbWZpavrFQ" name="path" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_hiR7wOUTEeyHBbWZpavrFQ" value="System.getProperty(&quot;user.dir&quot;) + File.separator + &quot;datasets&quot; + File.separator"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjBioOUTEeyHBbWZpavrFQ" name="main" specification="_hMggEOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjBioeUTEeyHBbWZpavrFQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hjBiouUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String filename = &quot;si.txt&quot;;
+		File f = new File(path + filename);
+		TSP b = new TSP(f, &quot;Almeria&quot;);
+		ArrayList&lt;ArrayList&lt;String>> results = b.BackTracking();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hMggEOUTEeyHBbWZpavrFQ" name="main" isStatic="true" method="_hjBioOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hMjjYOUTEeyHBbWZpavrFQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hM13QOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hNCrkOUTEeyHBbWZpavrFQ" name="PathNode">
+            <generalization xmi:id="_hfqsoOUTEeyHBbWZpavrFQ" general="_hPb4QOUTEeyHBbWZpavrFQ"/>
+            <ownedAttribute xmi:id="_hiUYAOUTEeyHBbWZpavrFQ" name="res" type="_herOIOUTEeyHBbWZpavrFQ" isReadOnly="true" association="_hj66gOUTEeyHBbWZpavrFQ"/>
+            <ownedAttribute xmi:id="_hiewEOUTEeyHBbWZpavrFQ" name="visitedVertex">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_hihMUOUTEeyHBbWZpavrFQ" name="totalCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_himE0OUTEeyHBbWZpavrFQ" name="estimatedCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_hhaZEOUTEeyHBbWZpavrFQ" client="_hNCrkOUTEeyHBbWZpavrFQ" supplier="_hhOL0OUTEeyHBbWZpavrFQ" contract="_hhOL0OUTEeyHBbWZpavrFQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjNv4OUTEeyHBbWZpavrFQ" name="PathNode" specification="_hOKs8OUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjOW8OUTEeyHBbWZpavrFQ" name="vertexToVisit">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjOW8eUTEeyHBbWZpavrFQ" type="_hNCrkOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>res = new ArrayList();
+		res.add(vertexToVisit);
+		visitedVertex = 1;
+		totalCost = 0.0;
+		estimatedCost = numberOfVertex() * minEdgeValue;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjO-AOUTEeyHBbWZpavrFQ" name="PathNode" specification="_hfQc8OUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjO-AeUTEeyHBbWZpavrFQ" name="parentPathNode" type="_hNCrkOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hjO-AuUTEeyHBbWZpavrFQ" type="_hNCrkOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.res = new ArrayList(parentPathNode.res);
+		this.visitedVertex = parentPathNode.visitedVertex;
+		this.totalCost = parentPathNode.totalCost;
+		this.estimatedCost = parentPathNode.estimatedCost;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjPlEOUTEeyHBbWZpavrFQ" name="compareTo" specification="_hfYYwOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjPlEeUTEeyHBbWZpavrFQ" name="p" type="_hNCrkOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hjPlEuUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Double.compare(this.estimatedCost, p.estimatedCost);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjQMIOUTEeyHBbWZpavrFQ" name="addVertexRes" specification="_hOfdEOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjQMIeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.res.add(v);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjQMIuUTEeyHBbWZpavrFQ" name="lastVertexRes" specification="_hOmKwOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjQMI-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.res.get(this.res.size() - 1);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjQzMOUTEeyHBbWZpavrFQ" name="isVertexVisited" specification="_hOvUsOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjQzMeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjQzMuUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.res.contains(v);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjRaQOUTEeyHBbWZpavrFQ" name="getVisitedVertices" specification="_hO2pcOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjRaQeUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return visitedVertex;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjSBUOUTEeyHBbWZpavrFQ" name="setVisitedVertices" specification="_hO8JAOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjSBUeUTEeyHBbWZpavrFQ" name="visitedVertices">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.visitedVertex = visitedVertices;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjSBUuUTEeyHBbWZpavrFQ" name="getTotalCost" specification="_hO-lQOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjSBU-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.totalCost;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjSoYOUTEeyHBbWZpavrFQ" name="setTotalCost" specification="_hPBokOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjSoYeUTEeyHBbWZpavrFQ" name="totalCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.totalCost = totalCost;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjSoYuUTEeyHBbWZpavrFQ" name="getEstimatedCost" specification="_hPC2sOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjSoY-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return estimatedCost;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjTPcOUTEeyHBbWZpavrFQ" name="setEstimatedCost" specification="_hPGhEOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjTPceUTEeyHBbWZpavrFQ" name="estimatedCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.estimatedCost = estimatedCost;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hOKs8OUTEeyHBbWZpavrFQ" name="PathNode" method="_hjNv4OUTEeyHBbWZpavrFQ">
+              <eAnnotations xmi:id="_hOQMgOUTEeyHBbWZpavrFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hOT24OUTEeyHBbWZpavrFQ" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_iTAOEOUTEeyHBbWZpavrFQ">
+                <body>Constructor
+	 * @param vertexToVisit</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hOMiIOUTEeyHBbWZpavrFQ" name="vertexToVisit">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hOVFAOUTEeyHBbWZpavrFQ" type="_hNCrkOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hOfdEOUTEeyHBbWZpavrFQ" name="addVertexRes" method="_hjQMIOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqUOUTEeyHBbWZpavrFQ">
+                <body>Añade un vértice.
+	 * @param v - vértice</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hOfdEeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hOmKwOUTEeyHBbWZpavrFQ" name="lastVertexRes" method="_hjQMIuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqUeUTEeyHBbWZpavrFQ">
+                <body>Obtiene el último vértice.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hOonAOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hOvUsOUTEeyHBbWZpavrFQ" name="isVertexVisited" method="_hjQzMOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqUuUTEeyHBbWZpavrFQ">
+                <body>Indica si un vértice ha sido o no visitado.
+	 * @param v
+	 * @return</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hOv7wOUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hOzmIOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hO2pcOUTEeyHBbWZpavrFQ" name="getVisitedVertices" method="_hjRaQOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqU-UTEeyHBbWZpavrFQ">
+                <body>Obtiene los vertices visitados.
+	 * @return</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hO5FsOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hO8JAOUTEeyHBbWZpavrFQ" name="setVisitedVertices" method="_hjSBUOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqVOUTEeyHBbWZpavrFQ">
+                <body>Establece los vértices visitados.
+	 * @param visitedVertices</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hO8wEOUTEeyHBbWZpavrFQ" name="visitedVertices">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hO-lQOUTEeyHBbWZpavrFQ" name="getTotalCost" method="_hjSBUuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTCqVeUTEeyHBbWZpavrFQ">
+                <body>Obtiene el coste total.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hO_MUOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hPBokOUTEeyHBbWZpavrFQ" name="setTotalCost" method="_hjSoYOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTDRYOUTEeyHBbWZpavrFQ">
+                <body>Establece el coste total.
+	 * @param totalCost</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hPCPoOUTEeyHBbWZpavrFQ" name="totalCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hPC2sOUTEeyHBbWZpavrFQ" name="getEstimatedCost" method="_hjSoYuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTDRYeUTEeyHBbWZpavrFQ">
+                <body>Obtiene el coste estimado.
+	 * @return</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hPDdwOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hPGhEOUTEeyHBbWZpavrFQ" name="setEstimatedCost" method="_hjTPcOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iTDRYuUTEeyHBbWZpavrFQ">
+                <body>Establece el coste estimado.
+	 * @param estimatedCost</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hPHIIOUTEeyHBbWZpavrFQ" name="estimatedCost">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hfQc8OUTEeyHBbWZpavrFQ" name="PathNode" method="_hjO-AOUTEeyHBbWZpavrFQ">
+              <eAnnotations xmi:id="_hfTgQOUTEeyHBbWZpavrFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hfV8gOUTEeyHBbWZpavrFQ" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_iTCDQOUTEeyHBbWZpavrFQ">
+                <body>Constructor copia
+	 * @param parentPathNode</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hfSSIOUTEeyHBbWZpavrFQ" name="parentPathNode" type="_hNCrkOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hfV8geUTEeyHBbWZpavrFQ" type="_hNCrkOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hfYYwOUTEeyHBbWZpavrFQ" name="compareTo" method="_hjPlEOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hfY_0OUTEeyHBbWZpavrFQ" name="p" type="_hNCrkOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hfcDIOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hPb4QOUTEeyHBbWZpavrFQ" name="TSP">
+            <ownedAttribute xmi:id="_hipvMOUTEeyHBbWZpavrFQ" name="directed" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_hisLcOUTEeyHBbWZpavrFQ" name="graph" type="_hgNfMOUTEeyHBbWZpavrFQ" isReadOnly="true" association="_hj8vseUTEeyHBbWZpavrFQ"/>
+            <ownedAttribute xmi:id="_hiunsOUTEeyHBbWZpavrFQ" name="origin">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_hiwc4OUTEeyHBbWZpavrFQ" name="minEdgeValue" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjTPcuUTEeyHBbWZpavrFQ" name="TSP" specification="_hPlCMOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjT2gOUTEeyHBbWZpavrFQ" type="_hPb4QOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.directed = true;
+		this.graph = new HashMap&lt;String, HashMap&lt;String, Double>>();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjT2geUTEeyHBbWZpavrFQ" name="TSP" specification="_hhl_QOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjT2guUTEeyHBbWZpavrFQ" name="file" type="_heQ-cOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hjT2g-UTEeyHBbWZpavrFQ" name="origin">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hjT2hOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjT2heUTEeyHBbWZpavrFQ" type="_hPb4QOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this();
+		try {
+			Scanner sc = new Scanner(file);
+			int nVertex = -1;
+			int nEdges = -1;
+			String[] tokens;
+			if (sc.hasNext()) {
+				setDirected(sc.nextLine().equals(&quot;1&quot;));
+			}
+			if (sc.hasNext()) {
+				nVertex = Integer.parseInt(sc.nextLine().trim());
+			}
+			for (int i = 0; i &lt; nVertex; i++) {
+				addVertex(sc.nextLine());
+			}
+			if (sc.hasNext()) {
+				nEdges = Integer.parseInt(sc.nextLine().trim());
+			}
+			for (int i = 0; i &lt; nEdges; i++) {
+				tokens = sc.nextLine().trim().split(&quot;[ ]+&quot;);
+				if (tokens.length != 3)
+					continue;
+				addEdge(tokens[0], tokens[1], Double.parseDouble(tokens[2]));
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		}
+		if (origin == null || origin.length == 0) {
+			List&lt;String> listaAux = new ArrayList&lt;String>(graph.keySet());
+			Collections.shuffle(listaAux);
+			this.origin = listaAux.get(0);
+		} else {
+			this.origin = origin[0];
+		}
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjUdkOUTEeyHBbWZpavrFQ" name="getDirected" specification="_hP2vAOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjUdkeUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.directed;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjUdkuUTEeyHBbWZpavrFQ" name="setDirected" specification="_hQCVMOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjUdk-UTEeyHBbWZpavrFQ" name="directed">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.directed = directed;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjUdlOUTEeyHBbWZpavrFQ" name="isEmpty" specification="_hQDjUOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjUdleUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.graph.isEmpty();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjVrsOUTEeyHBbWZpavrFQ" name="clear" specification="_hQF_kOUTEeyHBbWZpavrFQ">
+              <language>java</language>
+              <body>this.graph.clear();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjWSwOUTEeyHBbWZpavrFQ" name="numberOfVertex" specification="_hQGmoOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjWSweUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.graph.size();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjWSwuUTEeyHBbWZpavrFQ" name="numberOfEdges" specification="_hQH0wOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjWSw-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>int count = 0;
+		for (HashMap&lt;String, Double> it : this.graph.values())
+			count += it.size();
+		return directed ? count : count / 2;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjWSxOUTEeyHBbWZpavrFQ" name="addVertex" specification="_hQQXoOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjWSxeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjWSxuUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (this.graph.containsKey(v))
+			return false;
+		this.graph.put(v, new HashMap&lt;String, Double>());
+		return true;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjW50OUTEeyHBbWZpavrFQ" name="addEdge" specification="_hQV3MOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjW50eUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjW50uUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjW50-UTEeyHBbWZpavrFQ" name="w">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjW51OUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>addVertex(v1);
+		addVertex(v2);
+		this.graph.get(v1).put(v2, w);
+		if (!this.directed) {
+			this.graph.get(v2).put(v1, w);
+		}
+		return true;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjXg4OUTEeyHBbWZpavrFQ" name="containsEdge" specification="_hQck4OUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjXg4eUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjXg4uUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjXg4-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.graph.containsKey(v1) &amp;&amp; this.graph.get(v1).containsKey(v2);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjYvAOUTEeyHBbWZpavrFQ" name="getWeight" specification="_hQgPQOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjYvAeUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjYvAuUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjYvA-UTEeyHBbWZpavrFQ" type="_hh4TIOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return containsEdge(v1, v2) ? this.graph.get(v1).get(v2) : null;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjZ9IOUTEeyHBbWZpavrFQ" name="vertexSet" specification="_hQtDkOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjZ9IeUTEeyHBbWZpavrFQ" type="_hgRwoOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return new HashSet&lt;String>(this.graph.keySet());
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjbyUOUTEeyHBbWZpavrFQ" name="getNeighbors" specification="_hRLksOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjbyUeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjbyUuUTEeyHBbWZpavrFQ" type="_hgRwoOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>HashMap&lt;String, Double> neighbors = this.graph.get(v);
+		return neighbors == null ? null : new HashSet&lt;String>(neighbors.keySet());
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjcZYOUTEeyHBbWZpavrFQ" name="BackTracking" specification="_hRUHkOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjcZYeUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>HashMap&lt;String, Boolean> visited = new HashMap&lt;String, Boolean>();
+		ArrayList&lt;ArrayList&lt;String>> results = new ArrayList&lt;ArrayList&lt;String>>();
+		String[] stage = new String[numberOfVertex() + 1];
+		int level = 1;
+
+		initStructures(visited, stage);
+		System.out.println(&quot;VISITED: &quot; + visited);
+		BackTracking(stage, level, visited, results);
+		return results;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjcZYuUTEeyHBbWZpavrFQ" name="initStructures" specification="_hiAO8OUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjcZY-UTEeyHBbWZpavrFQ" name="visited" type="_hgNfMOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hjcZZOUTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hjcZZeUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>for (String v : graph.keySet()) {
+			visited.put(v, false);
+		}
+		stage[0] = origin;
+		stage[stage.length - 1] = origin;
+		visited.put(origin, true);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjdAcOUTEeyHBbWZpavrFQ" name="BackTracking" specification="_hiFHcOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjdAceUTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hjdAcuUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdAc-UTEeyHBbWZpavrFQ" name="level">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdAdOUTEeyHBbWZpavrFQ" name="visited" type="_hgNfMOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hjdAdeUTEeyHBbWZpavrFQ" name="results" type="_herOIOUTEeyHBbWZpavrFQ"/>
+              <language>java</language>
+              <body>for (Entry &lt;String, Boolean> it : visited.entrySet()) { //SeleccionarNuevaOpcion hasta Ultima opción
+	        if(it.getValue()) continue; //Ya está visitado
+	        if(esAceptable(stage, level, it.getKey())) { //Si Aceptable
+	            stage[level] = it.getKey(); //Anotar opcion
+	            if(level == visited.size()-1) { //Si solución completa -> Incluir solucion
+	            	ArrayList&lt;String> temp = new ArrayList&lt;String>(Arrays.asList(stage));
+	            	double suma = 0;
+	            	for(int i = 1; i &lt; temp.size(); i++) {
+	            		double peso = getWeight(temp.get(i - 1), temp.get(i));
+	            		suma += peso;
+	            	}
+	            	temp.add(&quot;Coste: &quot; + String.valueOf(suma));
+	            	results.add(temp);
+	            }else {//Si solucion incompleta -> Etapa siguiente
+	                visited.put(it.getKey(), true);
+	                BackTracking(stage, level+1, visited, results);
+	                visited.put(it.getKey(), false);
+	            }
+	        }
+	    }
+	    stage[level] = null; //Marcar como no explorado
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjdAduUTEeyHBbWZpavrFQ" name="esAceptable" specification="_hRtwMOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjdAd-UTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hjdAeOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdAeeUTEeyHBbWZpavrFQ" name="level">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdAeuUTEeyHBbWZpavrFQ" name="candidate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdAe-UTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>boolean esAlcanzable = containsEdge(stage[level-1], candidate);
+	    boolean esUltimoAlcanzable = true;
+	    if(level == stage.length - 2) {
+	    	esUltimoAlcanzable = containsEdge(candidate, stage[stage.length-1]);
+	    }
+	    return esAlcanzable &amp;&amp; esUltimoAlcanzable;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjdAfOUTEeyHBbWZpavrFQ" name="minimumEdgeValue" specification="_hRzPwOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjdAfeUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>double minimum = Double.MAX_VALUE;
+		for (HashMap&lt;String, Double> it : this.graph.values()) {
+			for(Double value : it.values()) {
+				if(value&lt;minimum) {
+					minimum = value;
+				}
+			}
+		}
+		return minimum;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hjdngOUTEeyHBbWZpavrFQ" name="TSPBaB" specification="_hR1sAOUTEeyHBbWZpavrFQ">
+              <ownedParameter xmi:id="_hjdngeUTEeyHBbWZpavrFQ" name="source">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hjdnguUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (graph.get(source) == null)
+			return null;
+
+		PriorityQueue&lt;PathNode> priorityQueue = new PriorityQueue&lt;PathNode>();
+		ArrayList&lt;String> shortestCircuit = null; //El mejor camino encontrado
+		int nVertices = numberOfVertex();
+		minEdgeValue = minimumEdgeValue();
+		double bestCost = Double.MAX_VALUE;
+		PathNode firstNode = new PathNode(source); // Constructor de clase PathNode
+		priorityQueue.add(firstNode);
+
+		while(priorityQueue.size() > 0) {
+			PathNode Y = priorityQueue.poll(); // Y = menorElemento de la cola de prioridad en funcion de 'estimatedCost'
+			if (Y.getEstimatedCost() >= bestCost) break;
+			String from = Y.lastVertexRes();
+				// Si el numero de vertices visitados es n
+				// y existe una arista que conecte 'from' con source
+				if ((Y.getVisitedVertices() == numberOfVertex()) &amp;&amp; (containsEdge(from, source))) {
+					Y.addVertexRes(source);// Actualizar 'res' en Y añadiendo el vertice 'source'
+					Y.totalCost += getWeight(from,  origin);// Actualizar 'totalCost' en Y.
+					if (Y.getTotalCost() &lt; bestCost) {
+						bestCost = Y.getTotalCost();
+						shortestCircuit = new ArrayList&lt;String>(Y.getRes());
+					}
+				} else {
+					for(String to : getNeighbors(from)){ // Iterar para todos los vertices adyacentes a from.
+						if (!Y.isVertexVisited(to)) { //Si el vertice 'to' todavia no ha sido visitado en Y.
+							PathNode X = new PathNode(Y); // Creamos un pathnode nuevo 'X' (copia de 'Y').
+							X.addVertexRes(to);// Anadir 'to' a 'res' en X
+							X.visitedVertex++; // Incrementar en 1 los vertices visitados en X
+							X.totalCost += getWeight(from, to);// Actualizar 'totalCost' en X.
+							X.estimatedCost = X.totalCost + (nVertices - X.getVisitedVertices() + 1) * minEdgeValue; // Actualizar 'estimatedCost' en X.
+							if (X.getEstimatedCost() &lt; bestCost) {
+								priorityQueue.add(X);
+							}
+						}
+					}
+				}
+			}
+		return shortestCircuit;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hPlCMOUTEeyHBbWZpavrFQ" name="TSP" method="_hjTPcuUTEeyHBbWZpavrFQ">
+              <eAnnotations xmi:id="_hPlpQOUTEeyHBbWZpavrFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hPm3YOUTEeyHBbWZpavrFQ" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_idV10OUTEeyHBbWZpavrFQ">
+                <body>Constructor por defecto
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hPnecOUTEeyHBbWZpavrFQ" type="_hPb4QOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hP2vAOUTEeyHBbWZpavrFQ" name="getDirected" method="_hjUdkOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idaHQOUTEeyHBbWZpavrFQ">
+                <body>Devuelve si el grafo es o no dirigido.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hP5yUOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQCVMOUTEeyHBbWZpavrFQ" name="setDirected" method="_hjUdkuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idbVYOUTEeyHBbWZpavrFQ">
+                <body>Establece si el grafo es dirigido.
+	 * 
+	 * @param directed</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQCVMeUTEeyHBbWZpavrFQ" name="directed">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQDjUOUTEeyHBbWZpavrFQ" name="isEmpty" method="_hjUdlOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idb8cOUTEeyHBbWZpavrFQ">
+                <body>Devuelve true o false dependiendo de si el grafo esta vacío.
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQExcOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQF_kOUTEeyHBbWZpavrFQ" name="clear" method="_hjVrsOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idb8ceUTEeyHBbWZpavrFQ">
+                <body>Elimina los elementos del grafo.</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQGmoOUTEeyHBbWZpavrFQ" name="numberOfVertex" method="_hjWSwOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idb8cuUTEeyHBbWZpavrFQ">
+                <body>Devuelve el número de vértices
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQHNsOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQH0wOUTEeyHBbWZpavrFQ" name="numberOfEdges" method="_hjWSwuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idcjgOUTEeyHBbWZpavrFQ">
+                <body>Devuelve el número de aristas.
+	 *</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQIb0OUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQQXoOUTEeyHBbWZpavrFQ" name="addVertex" method="_hjWSxOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idcjgeUTEeyHBbWZpavrFQ">
+                <body>Añade un vertice.
+	 * 
+	 * @param v - vertice</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQQXoeUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQRlwOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQV3MOUTEeyHBbWZpavrFQ" name="addEdge" method="_hjW50OUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idcjguUTEeyHBbWZpavrFQ">
+                <body>Añade una arista.
+	 * 
+	 * @param v1 - vertice1
+	 * @param v2 - vertice2
+	 * @param w - peso</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQY6gOUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQZhkOUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQZhkeUTEeyHBbWZpavrFQ" name="w">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQaIoOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQck4OUTEeyHBbWZpavrFQ" name="containsEdge" method="_hjXg4OUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iddxoOUTEeyHBbWZpavrFQ">
+                <body>Método utilizado para saber si el grafo contiene una determinada arista.
+	 * 
+	 * @param v1 - vertice1
+	 * @param v2 - vertice2
+	 * @return true/false</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQck4eUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQdzAOUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQeaEOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQgPQOUTEeyHBbWZpavrFQ" name="getWeight" method="_hjYvAOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_iddxoeUTEeyHBbWZpavrFQ">
+                <body>Obtiene el peso de una arista.
+	 * @param v1 - vertice1
+	 * @param v2 - vertice2</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hQhdYOUTEeyHBbWZpavrFQ" name="v1">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQj5oOUTEeyHBbWZpavrFQ" name="v2">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hh6vYOUTEeyHBbWZpavrFQ" type="_hh4TIOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hQtDkOUTEeyHBbWZpavrFQ" name="vertexSet" method="_hjZ9IOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_ideYsOUTEeyHBbWZpavrFQ">
+                <body>Establece un vértice.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hh-ZwOUTEeyHBbWZpavrFQ" type="_hgRwoOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hRLksOUTEeyHBbWZpavrFQ" name="getNeighbors" method="_hjbyUOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_ideYseUTEeyHBbWZpavrFQ">
+                <body>Obtiene los vecinos
+	 * @param v - vertice</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hRMLwOUTEeyHBbWZpavrFQ" name="v">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hh_n4OUTEeyHBbWZpavrFQ" type="_hgRwoOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hRUHkOUTEeyHBbWZpavrFQ" name="BackTracking" method="_hjcZYOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_ideYsuUTEeyHBbWZpavrFQ">
+                <body>Método público Backtracking
+	 * 
+	 * @return results</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hh_n4eUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hRtwMOUTEeyHBbWZpavrFQ" name="esAceptable" visibility="private" method="_hjdAduUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idjRMOUTEeyHBbWZpavrFQ">
+                <body>Método esAceptable.
+	 * 
+	 * @param etapa
+	 * @param nivel
+	 * @param candidato
+	 * @param visited
+	 * @return true/false</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hRu-UOUTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hRyosOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hRxakOUTEeyHBbWZpavrFQ" name="level">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hRxakeUTEeyHBbWZpavrFQ" name="candidate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hRyBoOUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hRzPwOUTEeyHBbWZpavrFQ" name="minimumEdgeValue" method="_hjdAfOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idlGYOUTEeyHBbWZpavrFQ">
+                <body>Devuelve el valor minimo de la arista.
+	 * @return minimum - valor mínimo</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hR0d4OUTEeyHBbWZpavrFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hR1sAOUTEeyHBbWZpavrFQ" name="TSPBaB" method="_hjdngOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idltcOUTEeyHBbWZpavrFQ">
+                <body>Algoritmo Branch and Bound para el TSP
+	 * @param source</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hR1sAeUTEeyHBbWZpavrFQ" name="source">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hiJ_8OUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hhl_QOUTEeyHBbWZpavrFQ" name="TSP" method="_hjT2geUTEeyHBbWZpavrFQ">
+              <eAnnotations xmi:id="_hhqQsOUTEeyHBbWZpavrFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hhq3wOUTEeyHBbWZpavrFQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_hhmmUOUTEeyHBbWZpavrFQ" name="file" type="_heQ-cOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hhppoOUTEeyHBbWZpavrFQ" name="origin">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hhzaoOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hhss8OUTEeyHBbWZpavrFQ" type="_hPb4QOUTEeyHBbWZpavrFQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hiAO8OUTEeyHBbWZpavrFQ" name="initStructures" visibility="private" method="_hjcZYuUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_ide_wOUTEeyHBbWZpavrFQ">
+                <body>Método para inicializar las estructuras de visitados y etapas.
+	 * 
+	 * @param visited - Estructura de visitados
+	 * @param stage   - Estructura de etapas</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hiAO8eUTEeyHBbWZpavrFQ" name="visited" type="_hgNfMOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hiAO8uUTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hiD5UeUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hiFHcOUTEeyHBbWZpavrFQ" name="BackTracking" visibility="private" method="_hjdAcOUTEeyHBbWZpavrFQ">
+              <ownedComment xmi:id="_idgN4OUTEeyHBbWZpavrFQ">
+                <body>Método privado recursivo para Backtracking.
+	 * 
+	 * @param etapa
+	 * @param nivel
+	 * @param visitados
+	 * @param resultados</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_hiFHceUTEeyHBbWZpavrFQ" name="stage">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hiGVkOUTEeyHBbWZpavrFQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hiFHcuUTEeyHBbWZpavrFQ" name="level">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hiFHc-UTEeyHBbWZpavrFQ" name="visited" type="_hgNfMOUTEeyHBbWZpavrFQ"/>
+              <ownedParameter xmi:id="_hiFugOUTEeyHBbWZpavrFQ" name="results" type="_herOIOUTEeyHBbWZpavrFQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_hj66gOUTEeyHBbWZpavrFQ" name="" memberEnd="_hj66geUTEeyHBbWZpavrFQ _hiUYAOUTEeyHBbWZpavrFQ">
+            <ownedEnd xmi:id="_hj66geUTEeyHBbWZpavrFQ" name="" type="_hNCrkOUTEeyHBbWZpavrFQ" association="_hj66gOUTEeyHBbWZpavrFQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_hj8vseUTEeyHBbWZpavrFQ" name="" memberEnd="_hj8vsuUTEeyHBbWZpavrFQ _hisLcOUTEeyHBbWZpavrFQ">
+            <ownedEnd xmi:id="_hj8vsuUTEeyHBbWZpavrFQ" name="" type="_hPb4QOUTEeyHBbWZpavrFQ" association="_hj8vseUTEeyHBbWZpavrFQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hIaqQOUTEeyHBbWZpavrFQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hIcfcOUTEeyHBbWZpavrFQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_heQ-cOUTEeyHBbWZpavrFQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hf1EsOUTEeyHBbWZpavrFQ" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hIfiwOUTEeyHBbWZpavrFQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hKXLAOUTEeyHBbWZpavrFQ" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_hgdW0OUTEeyHBbWZpavrFQ" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_herOIOUTEeyHBbWZpavrFQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_he4pgOUTEeyHBbWZpavrFQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hf5WIOUTEeyHBbWZpavrFQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hgH_oOUTEeyHBbWZpavrFQ" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hgNfMOUTEeyHBbWZpavrFQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hgRwoOUTEeyHBbWZpavrFQ" name="HashSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hgiPUOUTEeyHBbWZpavrFQ" name="PriorityQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hgkrkOUTEeyHBbWZpavrFQ" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hhM9sOUTEeyHBbWZpavrFQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hhOL0OUTEeyHBbWZpavrFQ" name="Comparable"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_hh4TIOUTEeyHBbWZpavrFQ" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_gVfYgOUTEeyHBbWZpavrFQ">
+      <eAnnotations xmi:id="_gVsM0OUTEeyHBbWZpavrFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_gWEAQOUTEeyHBbWZpavrFQ" base_Package="_f6Z_AOUTEeyHBbWZpavrFQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_hQ_-gOUTEeyHBbWZpavrFQ" genericsValue="String" base_Element="_hQtDkOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hRQdMOUTEeyHBbWZpavrFQ" genericsValue="String" base_Element="_hRLksOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hRftwOUTEeyHBbWZpavrFQ" genericsValue="ArrayList&lt;String>" base_Element="_hRUHkOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hR8ZsOUTEeyHBbWZpavrFQ" genericsValue="String" base_Element="_hR1sAOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hekgcOUTEeyHBbWZpavrFQ" base_Element="_heQ-cOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hevfkOUTEeyHBbWZpavrFQ" base_Element="_herOIOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_he-wIOUTEeyHBbWZpavrFQ" base_Element="_he4pgOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hfdRQOUTEeyHBbWZpavrFQ" base_Element="_hfYYwOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Annotations xmi:id="_hfiJwOUTEeyHBbWZpavrFQ" base_Element="_hfYYwOUTEeyHBbWZpavrFQ">
+    <annotations xmi:id="_hfnpUOUTEeyHBbWZpavrFQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_hf4IAOUTEeyHBbWZpavrFQ" base_Element="_hf1EsOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgFjYOUTEeyHBbWZpavrFQ" base_Element="_hf5WIOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgKb4OUTEeyHBbWZpavrFQ" base_Element="_hgH_oOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgQigOUTEeyHBbWZpavrFQ" base_Element="_hgNfMOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgaTgOUTEeyHBbWZpavrFQ" base_Element="_hgRwoOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hghBMOUTEeyHBbWZpavrFQ" base_Element="_hgdW0OUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgkEgOUTEeyHBbWZpavrFQ" base_Element="_hgiPUOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hgpkEOUTEeyHBbWZpavrFQ" base_Element="_hgkrkOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hhOy4OUTEeyHBbWZpavrFQ" base_Element="_hhOL0OUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hhcOQOUTEeyHBbWZpavrFQ" genericsValue="PathNode" base_Element="_hhaZEOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hhsF4OUTEeyHBbWZpavrFQ" base_Element="_hhl_QOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Array xmi:id="_hh2d8OUTEeyHBbWZpavrFQ" base_Element="_hhppoOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hh6IUOUTEeyHBbWZpavrFQ" base_Element="_hh4TIOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hiD5UOUTEeyHBbWZpavrFQ" genericsValue="String, Boolean" base_Element="_hiAO8eUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Array xmi:id="_hiG8oOUTEeyHBbWZpavrFQ" base_Element="_hiFHceUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hiHjsOUTEeyHBbWZpavrFQ" genericsValue="String, Boolean" base_Element="_hiFHc-UTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hiJY4OUTEeyHBbWZpavrFQ" genericsValue="ArrayList&lt;String>" base_Element="_hiFugOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hiTJ4OUTEeyHBbWZpavrFQ" base_Element="_hiPfgOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hiVmIOUTEeyHBbWZpavrFQ" base_Element="_hiUYAOUTEeyHBbWZpavrFQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hibswOUTEeyHBbWZpavrFQ" name="getRes" method="_hjJecOUTEeyHBbWZpavrFQ">
+      <ownedParameter xmi:id="_hieJAOUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Generics xmi:id="_hiXbUOUTEeyHBbWZpavrFQ" genericsValue="String" base_Element="_hiUYAOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_higlQOUTEeyHBbWZpavrFQ" base_Element="_hiewEOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hik2sOUTEeyHBbWZpavrFQ" base_Element="_hihMUOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hipIIOUTEeyHBbWZpavrFQ" base_Element="_himE0OUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hiq9UOUTEeyHBbWZpavrFQ" base_Element="_hipvMOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Generics xmi:id="_hitZkOUTEeyHBbWZpavrFQ" genericsValue="String, HashMap&lt;String, Double>" base_Element="_hisLcOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hixrAOUTEeyHBbWZpavrFQ" base_Element="_hiwc4OUTEeyHBbWZpavrFQ"/>
+  <uml:OpaqueBehavior xmi:id="_hjJecOUTEeyHBbWZpavrFQ" name="getRes" specification="_hibswOUTEeyHBbWZpavrFQ">
+    <ownedParameter xmi:id="_hjL6sOUTEeyHBbWZpavrFQ" type="_herOIOUTEeyHBbWZpavrFQ" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.res;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_hj8vsOUTEeyHBbWZpavrFQ" base_Element="_hj66gOUTEeyHBbWZpavrFQ"/>
+  <UMLLabProfile:Reference xmi:id="_hj990OUTEeyHBbWZpavrFQ" base_Element="_hj8vseUTEeyHBbWZpavrFQ"/>
+</xmi:XMI>

@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_gDUqcOUTEeyHBbWZpavrFQ">
+  <modelElement href="diagramaDeClases.uml#_hIwBcOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixIUgOUTEeyHBbWZpavrFQ" targetItem="_ix04KOUTEeyHBbWZpavrFQ" sourceItem="_ixEqIOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixLX0eUTEeyHBbWZpavrFQ" targetItem="_ix04MeUTEeyHBbWZpavrFQ" sourceItem="_ixLX0OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixMl8OUTEeyHBbWZpavrFQ" targetItem="_ix04N-UTEeyHBbWZpavrFQ" sourceItem="_ixL-4OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixMl8uUTEeyHBbWZpavrFQ" targetItem="_ix04POUTEeyHBbWZpavrFQ" sourceItem="_ixMl8eUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixNNAeUTEeyHBbWZpavrFQ" targetItem="_ix04ROUTEeyHBbWZpavrFQ" sourceItem="_ixNNAOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixN0EOUTEeyHBbWZpavrFQ" targetItem="_ix04SeUTEeyHBbWZpavrFQ" sourceItem="_ixNNAuUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixPpQeUTEeyHBbWZpavrFQ" targetItem="_ix04T-UTEeyHBbWZpavrFQ" sourceItem="_ixPpQOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixQQUOUTEeyHBbWZpavrFQ" targetItem="_ix04VOUTEeyHBbWZpavrFQ" sourceItem="_ixPpQuUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixQ3YOUTEeyHBbWZpavrFQ" targetItem="_ix04WuUTEeyHBbWZpavrFQ" sourceItem="_ixQQUeUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixSFgOUTEeyHBbWZpavrFQ" targetItem="_ix04X-UTEeyHBbWZpavrFQ" sourceItem="_ixRecOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ixXlEOUTEeyHBbWZpavrFQ" targetItem="_ix04ZeUTEeyHBbWZpavrFQ" sourceItem="_ixW-AOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ixyb0OUTEeyHBbWZpavrFQ" source="_ix04EOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_hj66gOUTEeyHBbWZpavrFQ"/>
+    <stereotypes xmi:id="_ixzC4OUTEeyHBbWZpavrFQ" name="Reference">
+      <modelElement href="diagramaDeClases.uml#_hj8vsOUTEeyHBbWZpavrFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ixzp8OUTEeyHBbWZpavrFQ" text=""/>
+    <sourceRole xmi:id="_ixzp8eUTEeyHBbWZpavrFQ" aggregationKind="NONE" name="">
+      <modelElement href="diagramaDeClases.uml#_hj66geUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ixzp8uUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ixzp8-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ixzp9OUTEeyHBbWZpavrFQ" aggregationKind="NONE" name="res" navigable="true">
+      <modelElement href="diagramaDeClases.uml#_hiUYAOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ixzp9eUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ixzp9uUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_i3fbMOUTEeyHBbWZpavrFQ" sourceAnchor="175.0,0.0" targetAnchor="262.0,496.0" superClass="_i4UhoOUTEeyHBbWZpavrFQ" subClass="_ix04EOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_hfqsoOUTEeyHBbWZpavrFQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3iegOUTEeyHBbWZpavrFQ" targetItem="_i4UhtuUTEeyHBbWZpavrFQ" sourceItem="_i3hQYOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3jsoeUTEeyHBbWZpavrFQ" targetItem="_i4VIteUTEeyHBbWZpavrFQ" sourceItem="_i3jsoOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3jso-UTEeyHBbWZpavrFQ" targetItem="_i4VIuuUTEeyHBbWZpavrFQ" sourceItem="_i3jsouUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3kTseUTEeyHBbWZpavrFQ" targetItem="_i4VIwOUTEeyHBbWZpavrFQ" sourceItem="_i3kTsOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3k6wOUTEeyHBbWZpavrFQ" targetItem="_i4VIxeUTEeyHBbWZpavrFQ" sourceItem="_i3kTsuUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3lh0eUTEeyHBbWZpavrFQ" targetItem="_i4VIyOUTEeyHBbWZpavrFQ" sourceItem="_i3lh0OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3n-EeUTEeyHBbWZpavrFQ" targetItem="_i4VIzeUTEeyHBbWZpavrFQ" sourceItem="_i3n-EOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3tdoOUTEeyHBbWZpavrFQ" targetItem="_i4VI0uUTEeyHBbWZpavrFQ" sourceItem="_i3s2kOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3uEseUTEeyHBbWZpavrFQ" targetItem="_i4VI2uUTEeyHBbWZpavrFQ" sourceItem="_i3uEsOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3vS0eUTEeyHBbWZpavrFQ" targetItem="_i4VI6OUTEeyHBbWZpavrFQ" sourceItem="_i3vS0OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3v54OUTEeyHBbWZpavrFQ" targetItem="_i4VI8-UTEeyHBbWZpavrFQ" sourceItem="_i3vS0uUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3v54uUTEeyHBbWZpavrFQ" targetItem="_i4VI_uUTEeyHBbWZpavrFQ" sourceItem="_i3v54eUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3wg8eUTEeyHBbWZpavrFQ" targetItem="_i4VJBOUTEeyHBbWZpavrFQ" sourceItem="_i3wg8OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3xIAeUTEeyHBbWZpavrFQ" targetItem="_i4VJDeUTEeyHBbWZpavrFQ" sourceItem="_i3xIAOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3xvEeUTEeyHBbWZpavrFQ" targetItem="_i4VJE-UTEeyHBbWZpavrFQ" sourceItem="_i3xvEOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3xvE-UTEeyHBbWZpavrFQ" targetItem="_i4VJIeUTEeyHBbWZpavrFQ" sourceItem="_i3xvEuUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i3yWIeUTEeyHBbWZpavrFQ" targetItem="_i4VJJuUTEeyHBbWZpavrFQ" sourceItem="_i3yWIOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i36R8OUTEeyHBbWZpavrFQ" targetItem="_i4VJPOUTEeyHBbWZpavrFQ" sourceItem="_i35q4OUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_i37gEeUTEeyHBbWZpavrFQ" targetItem="_i4VJReUTEeyHBbWZpavrFQ" sourceItem="_i37gEOUTEeyHBbWZpavrFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_i4Q3QOUTEeyHBbWZpavrFQ" source="_i4UhoOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_hj8vseUTEeyHBbWZpavrFQ"/>
+    <stereotypes xmi:id="_i4Q3QeUTEeyHBbWZpavrFQ" name="Reference">
+      <modelElement href="diagramaDeClases.uml#_hj990OUTEeyHBbWZpavrFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_i4Q3QuUTEeyHBbWZpavrFQ" text=""/>
+    <sourceRole xmi:id="_i4Q3Q-UTEeyHBbWZpavrFQ" aggregationKind="NONE" name="">
+      <modelElement href="diagramaDeClases.uml#_hj8vsuUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4Q3ROUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4Q3ReUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_i4Q3RuUTEeyHBbWZpavrFQ" aggregationKind="NONE" name="graph" navigable="true">
+      <modelElement href="diagramaDeClases.uml#_hisLcOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4Q3R-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4Q3SOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixEqIOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixIUgOUTEeyHBbWZpavrFQ" text="Constructor&#xA;&#x9; * @param vertexToVisit" item="_ix04KOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTAOEOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixLX0OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixLX0eUTEeyHBbWZpavrFQ" text="Añade un vértice.&#xA;&#x9; * @param v - vértice" item="_ix04MeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqUOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixL-4OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixMl8OUTEeyHBbWZpavrFQ" text="Obtiene el último vértice." item="_ix04N-UTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqUeUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixMl8eUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixMl8uUTEeyHBbWZpavrFQ" text="Indica si un vértice ha sido o no visitado.&#xA;&#x9; * @param v&#xA;&#x9; * @return" item="_ix04POUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqUuUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixNNAOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixNNAeUTEeyHBbWZpavrFQ" text="Obtiene los vertices visitados.&#xA;&#x9; * @return" item="_ix04ROUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqU-UTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixNNAuUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixN0EOUTEeyHBbWZpavrFQ" text="Establece los vértices visitados.&#xA;&#x9; * @param visitedVertices" item="_ix04SeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqVOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixPpQOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixPpQeUTEeyHBbWZpavrFQ" text="Obtiene el coste total." item="_ix04T-UTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCqVeUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixPpQuUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixQQUOUTEeyHBbWZpavrFQ" text="Establece el coste total.&#xA;&#x9; * @param totalCost" item="_ix04VOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTDRYOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixQQUeUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixQ3YOUTEeyHBbWZpavrFQ" text="Obtiene el coste estimado.&#xA;&#x9; * @return" item="_ix04WuUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTDRYeUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixRecOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixSFgOUTEeyHBbWZpavrFQ" text="Establece el coste estimado.&#xA;&#x9; * @param estimatedCost" item="_ix04X-UTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTDRYuUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ixW-AOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_ixXlEOUTEeyHBbWZpavrFQ" text="Constructor copia&#xA;&#x9; * @param parentPathNode" item="_ix04ZeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iTCDQOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3hQYOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3iegOUTEeyHBbWZpavrFQ" text="Constructor por defecto&#xA;&#x9; *" item="_i4UhtuUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idV10OUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3jsoOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3jsoeUTEeyHBbWZpavrFQ" text="Devuelve si el grafo es o no dirigido." item="_i4VIteUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idaHQOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3jsouUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3jso-UTEeyHBbWZpavrFQ" text="Establece si el grafo es dirigido.&#xA;&#x9; * &#xA;&#x9; * @param directed" item="_i4VIuuUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idbVYOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3kTsOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3kTseUTEeyHBbWZpavrFQ" text="Devuelve true o false dependiendo de si el grafo esta vacío.&#xA;&#x9; *" item="_i4VIwOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idb8cOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3kTsuUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3k6wOUTEeyHBbWZpavrFQ" text="Elimina los elementos del grafo." item="_i4VIxeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idb8ceUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3lh0OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3lh0eUTEeyHBbWZpavrFQ" text="Devuelve el número de vértices&#xA;&#x9; *" item="_i4VIyOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idb8cuUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3n-EOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3n-EeUTEeyHBbWZpavrFQ" text="Devuelve el número de aristas.&#xA;&#x9; *" item="_i4VIzeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idcjgOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3s2kOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3tdoOUTEeyHBbWZpavrFQ" text="Añade un vertice.&#xA;&#x9; * &#xA;&#x9; * @param v - vertice" item="_i4VI0uUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idcjgeUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3uEsOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3uEseUTEeyHBbWZpavrFQ" text="Añade una arista.&#xA;&#x9; * &#xA;&#x9; * @param v1 - vertice1&#xA;&#x9; * @param v2 - vertice2&#xA;&#x9; * @param w - peso" item="_i4VI2uUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idcjguUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3vS0OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3vS0eUTEeyHBbWZpavrFQ" text="Método utilizado para saber si el grafo contiene una determinada arista.&#xA;&#x9; * &#xA;&#x9; * @param v1 - vertice1&#xA;&#x9; * @param v2 - vertice2&#xA;&#x9; * @return true/false" item="_i4VI6OUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iddxoOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3vS0uUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3v54OUTEeyHBbWZpavrFQ" text="Obtiene el peso de una arista.&#xA;&#x9; * @param v1 - vertice1&#xA;&#x9; * @param v2 - vertice2" item="_i4VI8-UTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_iddxoeUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3v54eUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3v54uUTEeyHBbWZpavrFQ" text="Establece un vértice." item="_i4VI_uUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_ideYsOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3wg8OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3wg8eUTEeyHBbWZpavrFQ" text="Obtiene los vecinos&#xA;&#x9; * @param v - vertice" item="_i4VJBOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_ideYseUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3xIAOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3xIAeUTEeyHBbWZpavrFQ" text="Método público Backtracking&#xA;&#x9; * &#xA;&#x9; * @return results" item="_i4VJDeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_ideYsuUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3xvEOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3xvEeUTEeyHBbWZpavrFQ" text="Método esAceptable.&#xA;&#x9; * &#xA;&#x9; * @param etapa&#xA;&#x9; * @param nivel&#xA;&#x9; * @param candidato&#xA;&#x9; * @param visited&#xA;&#x9; * @return true/false" item="_i4VJE-UTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idjRMOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3xvEuUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3xvE-UTEeyHBbWZpavrFQ" text="Devuelve el valor minimo de la arista.&#xA;&#x9; * @return minimum - valor mínimo" item="_i4VJIeUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idlGYOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i3yWIOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i3yWIeUTEeyHBbWZpavrFQ" text="Algoritmo Branch and Bound para el TSP&#xA;&#x9; * @param source" item="_i4VJJuUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idltcOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i35q4OUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i36R8OUTEeyHBbWZpavrFQ" text="Método para inicializar las estructuras de visitados y etapas.&#xA;&#x9; * &#xA;&#x9; * @param visited - Estructura de visitados&#xA;&#x9; * @param stage   - Estructura de etapas" item="_i4VJPOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_ide_wOUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_i37gEOUTEeyHBbWZpavrFQ" sourceConnectionVisual="_i37gEeUTEeyHBbWZpavrFQ" text="Método privado recursivo para Backtracking.&#xA;&#x9; * &#xA;&#x9; * @param etapa&#xA;&#x9; * @param nivel&#xA;&#x9; * @param visitados&#xA;&#x9; * @param resultados" item="_i4VJReUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_idgN4OUTEeyHBbWZpavrFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ix04EOUTEeyHBbWZpavrFQ" name="PathNode" associationsOut="_ixyb0OUTEeyHBbWZpavrFQ" generalizations="_i3fbMOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_hNCrkOUTEeyHBbWZpavrFQ"/>
+    <visualProperties xmi:id="_ix04EeUTEeyHBbWZpavrFQ" position="200.0,253.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ix04EuUTEeyHBbWZpavrFQ" label="+"/>
+    <attributes xmi:id="_ix04E-UTEeyHBbWZpavrFQ" name="res">
+      <modelElement href="diagramaDeClases.uml#_hiUYAOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_ix04FOUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hiVmIOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ix04FeUTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hiXbUOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ix04FuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04F-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ix04GOUTEeyHBbWZpavrFQ" name="ArrayList">
+        <modelElement href="diagramaDeClases.uml#_herOIOUTEeyHBbWZpavrFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ix04GeUTEeyHBbWZpavrFQ" name="visitedVertex">
+      <modelElement href="diagramaDeClases.uml#_hiewEOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_ix04GuUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_higlQOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ix04G-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04HOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ix04HeUTEeyHBbWZpavrFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ix04HuUTEeyHBbWZpavrFQ" name="totalCost">
+      <modelElement href="diagramaDeClases.uml#_hihMUOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_ix04H-UTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hik2sOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ix04IOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04IeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ix04IuUTEeyHBbWZpavrFQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ix04I-UTEeyHBbWZpavrFQ" name="estimatedCost">
+      <modelElement href="diagramaDeClases.uml#_himE0OUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_ix04JOUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hipIIOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ix04JeUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04JuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ix04J-UTEeyHBbWZpavrFQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ix04KOUTEeyHBbWZpavrFQ" comments="_ixEqIOUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixIUgOUTEeyHBbWZpavrFQ" name="PathNode">
+      <modelElement href="diagramaDeClases.uml#_hOKs8OUTEeyHBbWZpavrFQ"/>
+      <keywords xmi:id="_ix04KeUTEeyHBbWZpavrFQ" keyword="create"/>
+      <visibility xmi:id="_ix04KuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04K-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04LOUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hOVFAOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04LeUTEeyHBbWZpavrFQ" name="PathNode">
+          <modelElement href="diagramaDeClases.uml#_hNCrkOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ix04LuUTEeyHBbWZpavrFQ" name="vertexToVisit">
+        <modelElement href="diagramaDeClases.uml#_hOMiIOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04L-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04MOUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04MeUTEeyHBbWZpavrFQ" comments="_ixLX0OUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixLX0eUTEeyHBbWZpavrFQ" name="addVertexRes">
+      <modelElement href="diagramaDeClases.uml#_hOfdEOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04MuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04M-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ix04NOUTEeyHBbWZpavrFQ" name="v">
+        <modelElement href="diagramaDeClases.uml#_hOfdEeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04NeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04NuUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04N-UTEeyHBbWZpavrFQ" comments="_ixL-4OUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixMl8OUTEeyHBbWZpavrFQ" name="lastVertexRes">
+      <modelElement href="diagramaDeClases.uml#_hOmKwOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04OOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04OeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04OuUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hOonAOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04O-UTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ix04POUTEeyHBbWZpavrFQ" comments="_ixMl8eUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixMl8uUTEeyHBbWZpavrFQ" name="isVertexVisited">
+      <modelElement href="diagramaDeClases.uml#_hOvUsOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04PeUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04PuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04P-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hOzmIOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04QOUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ix04QeUTEeyHBbWZpavrFQ" name="v">
+        <modelElement href="diagramaDeClases.uml#_hOv7wOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04QuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04Q-UTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04ROUTEeyHBbWZpavrFQ" comments="_ixNNAOUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixNNAeUTEeyHBbWZpavrFQ" name="getVisitedVertices">
+      <modelElement href="diagramaDeClases.uml#_hO2pcOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04ReUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04RuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04R-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hO5FsOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04SOUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ix04SeUTEeyHBbWZpavrFQ" comments="_ixNNAuUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixN0EOUTEeyHBbWZpavrFQ" name="setVisitedVertices">
+      <modelElement href="diagramaDeClases.uml#_hO8JAOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04SuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04S-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ix04TOUTEeyHBbWZpavrFQ" name="visitedVertices">
+        <modelElement href="diagramaDeClases.uml#_hO8wEOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04TeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04TuUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04T-UTEeyHBbWZpavrFQ" comments="_ixPpQOUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixPpQeUTEeyHBbWZpavrFQ" name="getTotalCost">
+      <modelElement href="diagramaDeClases.uml#_hO-lQOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04UOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04UeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04UuUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hO_MUOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04U-UTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ix04VOUTEeyHBbWZpavrFQ" comments="_ixPpQuUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixQQUOUTEeyHBbWZpavrFQ" name="setTotalCost">
+      <modelElement href="diagramaDeClases.uml#_hPBokOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04VeUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04VuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ix04V-UTEeyHBbWZpavrFQ" name="totalCost">
+        <modelElement href="diagramaDeClases.uml#_hPCPoOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04WOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04WeUTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04WuUTEeyHBbWZpavrFQ" comments="_ixQQUeUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixQ3YOUTEeyHBbWZpavrFQ" name="getEstimatedCost">
+      <modelElement href="diagramaDeClases.uml#_hPC2sOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04W-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04XOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix04XeUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hPDdwOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix04XuUTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ix04X-UTEeyHBbWZpavrFQ" comments="_ixRecOUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixSFgOUTEeyHBbWZpavrFQ" name="setEstimatedCost">
+      <modelElement href="diagramaDeClases.uml#_hPGhEOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_ix04YOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix04YeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ix04YuUTEeyHBbWZpavrFQ" name="estimatedCost">
+        <modelElement href="diagramaDeClases.uml#_hPHIIOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix04Y-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix04ZOUTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix04ZeUTEeyHBbWZpavrFQ" comments="_ixW-AOUTEeyHBbWZpavrFQ" targetConnectionVisual="_ixXlEOUTEeyHBbWZpavrFQ" name="PathNode">
+      <modelElement href="diagramaDeClases.uml#_hfQc8OUTEeyHBbWZpavrFQ"/>
+      <keywords xmi:id="_ix04ZuUTEeyHBbWZpavrFQ" keyword="create"/>
+      <visibility xmi:id="_ix04Z-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix1fIOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix1fIeUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hfV8geUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix1fIuUTEeyHBbWZpavrFQ" name="PathNode">
+          <modelElement href="diagramaDeClases.uml#_hNCrkOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ix1fI-UTEeyHBbWZpavrFQ" name="parentPathNode">
+        <modelElement href="diagramaDeClases.uml#_hfSSIOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix1fJOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix1fJeUTEeyHBbWZpavrFQ" name="PathNode">
+          <modelElement href="diagramaDeClases.uml#_hNCrkOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ix1fJuUTEeyHBbWZpavrFQ" name="compareTo">
+      <modelElement href="diagramaDeClases.uml#_hfYYwOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_ix1fJ-UTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hfdRQOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ix1fKOUTEeyHBbWZpavrFQ" name="Annotations">
+        <modelElement href="diagramaDeClases.uml#_hfiJwOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ix1fKeUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_ix1fKuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ix1fK-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hfcDIOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_ix1fLOUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ix1fLeUTEeyHBbWZpavrFQ" name="p">
+        <modelElement href="diagramaDeClases.uml#_hfY_0OUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_ix1fLuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ix1fL-UTEeyHBbWZpavrFQ" name="PathNode">
+          <modelElement href="diagramaDeClases.uml#_hNCrkOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i4UhoOUTEeyHBbWZpavrFQ" name="TSP" associationsOut="_i4Q3QOUTEeyHBbWZpavrFQ" subclassedBy="_i3fbMOUTEeyHBbWZpavrFQ">
+    <modelElement href="diagramaDeClases.uml#_hPb4QOUTEeyHBbWZpavrFQ"/>
+    <visualProperties xmi:id="_i4UhoeUTEeyHBbWZpavrFQ" position="113.0,-298.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i4UhouUTEeyHBbWZpavrFQ" label="+"/>
+    <attributes xmi:id="_i4Uho-UTEeyHBbWZpavrFQ" name="directed">
+      <modelElement href="diagramaDeClases.uml#_hipvMOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4UhpOUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hiq9UOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4UhpeUTEeyHBbWZpavrFQ" label="-"/>
+      <cardinality xmi:id="_i4UhpuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_i4Uhp-UTEeyHBbWZpavrFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i4UhqOUTEeyHBbWZpavrFQ" name="graph">
+      <modelElement href="diagramaDeClases.uml#_hisLcOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4UhqeUTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hitZkOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4UhquUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4Uhq-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_i4UhrOUTEeyHBbWZpavrFQ" name="HashMap">
+        <modelElement href="diagramaDeClases.uml#_hgNfMOUTEeyHBbWZpavrFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i4UhreUTEeyHBbWZpavrFQ" name="origin">
+      <modelElement href="diagramaDeClases.uml#_hiunsOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4UhruUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4Uhr-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_i4UhsOUTEeyHBbWZpavrFQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_i4UhseUTEeyHBbWZpavrFQ" name="minEdgeValue">
+      <modelElement href="diagramaDeClases.uml#_hiwc4OUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4UhsuUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hixrAOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4Uhs-UTEeyHBbWZpavrFQ" label="#"/>
+      <cardinality xmi:id="_i4UhtOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_i4UhteUTEeyHBbWZpavrFQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i4UhtuUTEeyHBbWZpavrFQ" comments="_i3hQYOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3iegOUTEeyHBbWZpavrFQ" name="TSP">
+      <modelElement href="diagramaDeClases.uml#_hPlCMOUTEeyHBbWZpavrFQ"/>
+      <keywords xmi:id="_i4VIsOUTEeyHBbWZpavrFQ" keyword="create"/>
+      <visibility xmi:id="_i4VIseUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIsuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VIs-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hPnecOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VItOUTEeyHBbWZpavrFQ" name="TSP">
+          <modelElement href="diagramaDeClases.uml#_hPb4QOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VIteUTEeyHBbWZpavrFQ" comments="_i3jsoOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3jsoeUTEeyHBbWZpavrFQ" name="getDirected">
+      <modelElement href="diagramaDeClases.uml#_hP2vAOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VItuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIt-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VIuOUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hP5yUOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VIueUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VIuuUTEeyHBbWZpavrFQ" comments="_i3jsouUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3jso-UTEeyHBbWZpavrFQ" name="setDirected">
+      <modelElement href="diagramaDeClases.uml#_hQCVMOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VIu-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIvOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_i4VIveUTEeyHBbWZpavrFQ" name="directed">
+        <modelElement href="diagramaDeClases.uml#_hQCVMeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VIvuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VIv-UTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VIwOUTEeyHBbWZpavrFQ" comments="_i3kTsOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3kTseUTEeyHBbWZpavrFQ" name="isEmpty">
+      <modelElement href="diagramaDeClases.uml#_hQDjUOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VIweUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIwuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VIw-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQExcOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VIxOUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VIxeUTEeyHBbWZpavrFQ" comments="_i3kTsuUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3k6wOUTEeyHBbWZpavrFQ" name="clear">
+      <modelElement href="diagramaDeClases.uml#_hQF_kOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VIxuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIx-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_i4VIyOUTEeyHBbWZpavrFQ" comments="_i3lh0OUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3lh0eUTEeyHBbWZpavrFQ" name="numberOfVertex">
+      <modelElement href="diagramaDeClases.uml#_hQGmoOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VIyeUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIyuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VIy-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQHNsOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VIzOUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VIzeUTEeyHBbWZpavrFQ" comments="_i3n-EOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3n-EeUTEeyHBbWZpavrFQ" name="numberOfEdges">
+      <modelElement href="diagramaDeClases.uml#_hQH0wOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VIzuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VIz-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VI0OUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQIb0OUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VI0eUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VI0uUTEeyHBbWZpavrFQ" comments="_i3s2kOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3tdoOUTEeyHBbWZpavrFQ" name="addVertex">
+      <modelElement href="diagramaDeClases.uml#_hQQXoOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VI0-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VI1OUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VI1eUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQRlwOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VI1uUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VI1-UTEeyHBbWZpavrFQ" name="v">
+        <modelElement href="diagramaDeClases.uml#_hQQXoeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI2OUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI2eUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VI2uUTEeyHBbWZpavrFQ" comments="_i3uEsOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3uEseUTEeyHBbWZpavrFQ" name="addEdge">
+      <modelElement href="diagramaDeClases.uml#_hQV3MOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VI2-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VI3OUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VI3eUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQaIoOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VI3uUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VI3-UTEeyHBbWZpavrFQ" name="v1">
+        <modelElement href="diagramaDeClases.uml#_hQY6gOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI4OUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI4eUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VI4uUTEeyHBbWZpavrFQ" name="v2">
+        <modelElement href="diagramaDeClases.uml#_hQZhkOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI4-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI5OUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VI5eUTEeyHBbWZpavrFQ" name="w">
+        <modelElement href="diagramaDeClases.uml#_hQZhkeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI5uUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI5-UTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VI6OUTEeyHBbWZpavrFQ" comments="_i3vS0OUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3vS0eUTEeyHBbWZpavrFQ" name="containsEdge">
+      <modelElement href="diagramaDeClases.uml#_hQck4OUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VI6eUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VI6uUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VI6-UTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hQeaEOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VI7OUTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VI7eUTEeyHBbWZpavrFQ" name="v1">
+        <modelElement href="diagramaDeClases.uml#_hQck4eUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI7uUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI7-UTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VI8OUTEeyHBbWZpavrFQ" name="v2">
+        <modelElement href="diagramaDeClases.uml#_hQdzAOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI8eUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI8uUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VI8-UTEeyHBbWZpavrFQ" comments="_i3vS0uUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3v54OUTEeyHBbWZpavrFQ" name="getWeight">
+      <modelElement href="diagramaDeClases.uml#_hQgPQOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VI9OUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VI9eUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VI9uUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hh6vYOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VI9-UTEeyHBbWZpavrFQ" name="Double">
+          <modelElement href="diagramaDeClases.uml#_hh4TIOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VI-OUTEeyHBbWZpavrFQ" name="v1">
+        <modelElement href="diagramaDeClases.uml#_hQhdYOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI-eUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI-uUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VI--UTEeyHBbWZpavrFQ" name="v2">
+        <modelElement href="diagramaDeClases.uml#_hQj5oOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VI_OUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VI_eUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VI_uUTEeyHBbWZpavrFQ" comments="_i3v54eUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3v54uUTEeyHBbWZpavrFQ" name="vertexSet">
+      <modelElement href="diagramaDeClases.uml#_hQtDkOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4VI_-UTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hQ_-gOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4VJAOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJAeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJAuUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hh-ZwOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJA-UTEeyHBbWZpavrFQ" name="HashSet">
+          <modelElement href="diagramaDeClases.uml#_hgRwoOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VJBOUTEeyHBbWZpavrFQ" comments="_i3wg8OUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3wg8eUTEeyHBbWZpavrFQ" name="getNeighbors">
+      <modelElement href="diagramaDeClases.uml#_hRLksOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4VJBeUTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hRQdMOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4VJBuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJB-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJCOUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hh_n4OUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJCeUTEeyHBbWZpavrFQ" name="HashSet">
+          <modelElement href="diagramaDeClases.uml#_hgRwoOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VJCuUTEeyHBbWZpavrFQ" name="v">
+        <modelElement href="diagramaDeClases.uml#_hRMLwOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJC-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJDOUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VJDeUTEeyHBbWZpavrFQ" comments="_i3xIAOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3xIAeUTEeyHBbWZpavrFQ" name="BackTracking">
+      <modelElement href="diagramaDeClases.uml#_hRUHkOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4VJDuUTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hRftwOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4VJD-UTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJEOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJEeUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hh_n4eUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJEuUTEeyHBbWZpavrFQ" name="ArrayList">
+          <modelElement href="diagramaDeClases.uml#_herOIOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VJE-UTEeyHBbWZpavrFQ" comments="_i3xvEOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3xvEeUTEeyHBbWZpavrFQ" name="esAceptable">
+      <modelElement href="diagramaDeClases.uml#_hRtwMOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VJFOUTEeyHBbWZpavrFQ" label="-"/>
+      <cardinality xmi:id="_i4VJFeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJFuUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hRyBoOUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJF-UTEeyHBbWZpavrFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VJGOUTEeyHBbWZpavrFQ" name="stage">
+        <modelElement href="diagramaDeClases.uml#_hRu-UOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJGeUTEeyHBbWZpavrFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i4VJGuUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJG-UTEeyHBbWZpavrFQ" name="level">
+        <modelElement href="diagramaDeClases.uml#_hRxakOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJHOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJHeUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJHuUTEeyHBbWZpavrFQ" name="candidate">
+        <modelElement href="diagramaDeClases.uml#_hRxakeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJH-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJIOUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VJIeUTEeyHBbWZpavrFQ" comments="_i3xvEuUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3xvE-UTEeyHBbWZpavrFQ" name="minimumEdgeValue">
+      <modelElement href="diagramaDeClases.uml#_hRzPwOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VJIuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJI-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJJOUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hR0d4OUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJJeUTEeyHBbWZpavrFQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_i4VJJuUTEeyHBbWZpavrFQ" comments="_i3yWIOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i3yWIeUTEeyHBbWZpavrFQ" name="TSPBaB">
+      <modelElement href="diagramaDeClases.uml#_hR1sAOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i4VJJ-UTEeyHBbWZpavrFQ" name="Generics">
+        <modelElement href="diagramaDeClases.uml#_hR8ZsOUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4VJKOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJKeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJKuUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hiJ_8OUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJK-UTEeyHBbWZpavrFQ" name="ArrayList">
+          <modelElement href="diagramaDeClases.uml#_herOIOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VJLOUTEeyHBbWZpavrFQ" name="source">
+        <modelElement href="diagramaDeClases.uml#_hR1sAeUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJLeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJLuUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VJL-UTEeyHBbWZpavrFQ" name="TSP">
+      <modelElement href="diagramaDeClases.uml#_hhl_QOUTEeyHBbWZpavrFQ"/>
+      <keywords xmi:id="_i4VJMOUTEeyHBbWZpavrFQ" keyword="create"/>
+      <stereotypes xmi:id="_i4VJMeUTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hhsF4OUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i4VJMuUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i4VJM-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i4VJNOUTEeyHBbWZpavrFQ">
+        <modelElement href="diagramaDeClases.uml#_hhss8OUTEeyHBbWZpavrFQ"/>
+        <type xmi:id="_i4VJNeUTEeyHBbWZpavrFQ" name="TSP">
+          <modelElement href="diagramaDeClases.uml#_hPb4QOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_i4VJNuUTEeyHBbWZpavrFQ" name="file">
+        <modelElement href="diagramaDeClases.uml#_hhmmUOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJN-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJOOUTEeyHBbWZpavrFQ" name="File">
+          <modelElement href="diagramaDeClases.uml#_heQ-cOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJOeUTEeyHBbWZpavrFQ" name="origin">
+        <modelElement href="diagramaDeClases.uml#_hhppoOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJOuUTEeyHBbWZpavrFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i4VJO-UTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VJPOUTEeyHBbWZpavrFQ" comments="_i35q4OUTEeyHBbWZpavrFQ" targetConnectionVisual="_i36R8OUTEeyHBbWZpavrFQ" name="initStructures">
+      <modelElement href="diagramaDeClases.uml#_hiAO8OUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VJPeUTEeyHBbWZpavrFQ" label="-"/>
+      <cardinality xmi:id="_i4VJPuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_i4VJP-UTEeyHBbWZpavrFQ" name="visited">
+        <modelElement href="diagramaDeClases.uml#_hiAO8eUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJQOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJQeUTEeyHBbWZpavrFQ" name="HashMap">
+          <modelElement href="diagramaDeClases.uml#_hgNfMOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJQuUTEeyHBbWZpavrFQ" name="stage">
+        <modelElement href="diagramaDeClases.uml#_hiAO8uUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJQ-UTEeyHBbWZpavrFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i4VJROUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i4VJReUTEeyHBbWZpavrFQ" comments="_i37gEOUTEeyHBbWZpavrFQ" targetConnectionVisual="_i37gEeUTEeyHBbWZpavrFQ" name="BackTracking">
+      <modelElement href="diagramaDeClases.uml#_hiFHcOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i4VJRuUTEeyHBbWZpavrFQ" label="-"/>
+      <cardinality xmi:id="_i4VJR-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_i4VJSOUTEeyHBbWZpavrFQ" name="stage">
+        <modelElement href="diagramaDeClases.uml#_hiFHceUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJSeUTEeyHBbWZpavrFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i4VJSuUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJS-UTEeyHBbWZpavrFQ" name="level">
+        <modelElement href="diagramaDeClases.uml#_hiFHcuUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJTOUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJTeUTEeyHBbWZpavrFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJTuUTEeyHBbWZpavrFQ" name="visited">
+        <modelElement href="diagramaDeClases.uml#_hiFHc-UTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJT-UTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJUOUTEeyHBbWZpavrFQ" name="HashMap">
+          <modelElement href="diagramaDeClases.uml#_hgNfMOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_i4VJUeUTEeyHBbWZpavrFQ" name="results">
+        <modelElement href="diagramaDeClases.uml#_hiFugOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i4VJUuUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_i4VJU-UTEeyHBbWZpavrFQ" name="ArrayList">
+          <modelElement href="diagramaDeClases.uml#_herOIOUTEeyHBbWZpavrFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_i0kDAOUTEeyHBbWZpavrFQ" name="Main">
+    <modelElement href="diagramaDeClases.uml#_hLcJEOUTEeyHBbWZpavrFQ"/>
+    <visualProperties xmi:id="_i0kqEOUTEeyHBbWZpavrFQ" position="672.0,61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_i0kqEeUTEeyHBbWZpavrFQ" label="+"/>
+    <attributes xmi:id="_i0kqEuUTEeyHBbWZpavrFQ" defaultValue="System.getProperty(&quot;user.dir&quot;) + File.separator + &quot;datasets&quot; + File.separator" name="path" staticAttribute="true">
+      <modelElement href="diagramaDeClases.uml#_hiPfgOUTEeyHBbWZpavrFQ"/>
+      <stereotypes xmi:id="_i0kqE-UTEeyHBbWZpavrFQ" name="LegacyStyledElement">
+        <modelElement href="diagramaDeClases.uml#_hiTJ4OUTEeyHBbWZpavrFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_i0kqFOUTEeyHBbWZpavrFQ" label="-"/>
+      <cardinality xmi:id="_i0kqFeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_i0kqFuUTEeyHBbWZpavrFQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_i0kqF-UTEeyHBbWZpavrFQ" name="main" staticOperation="true">
+      <modelElement href="diagramaDeClases.uml#_hMggEOUTEeyHBbWZpavrFQ"/>
+      <visibility xmi:id="_i0kqGOUTEeyHBbWZpavrFQ" label="+"/>
+      <cardinality xmi:id="_i0kqGeUTEeyHBbWZpavrFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_i0lRIOUTEeyHBbWZpavrFQ" name="args">
+        <modelElement href="diagramaDeClases.uml#_hMjjYOUTEeyHBbWZpavrFQ"/>
+        <cardinality xmi:id="_i0lRIeUTEeyHBbWZpavrFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_i0lRIuUTEeyHBbWZpavrFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
